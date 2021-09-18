@@ -1,0 +1,27 @@
+void main() {
+  
+  var a1 = 2 ;
+  var b1 = 1;
+  var output1 = --a1 - --b1 + ++b1 + b1--;
+//   Answer:      1   -  0    +  1    +  1 = 3
+
+  var a2 = 2;
+  var b2 = 1;
+  var output2 = --a2;
+// Answer:       1
+  var a3 = 2;
+  var b3 = 1;
+  var output3 = --a3 - --b3;
+// Answer:       1   -   0    = 1
+  
+  var a4 = 2;
+  var b4 = 1;
+  var output4 = --a4 - --b4 + ++b4;
+// Answer:        1   -  0   +  1   = 2
+  
+  var a5 = 2;
+  var b5 = 1;
+  var output5 = --a5 - --b5 + ++b5 + b5--;
+// Answer:       1   -  0   +  1   +  1   = 3
+  
+}

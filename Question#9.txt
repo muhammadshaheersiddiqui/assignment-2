@@ -1,0 +1,14 @@
+void main() {
+  
+  var list1 = ["Shaheer","Ali","Ahsan"];
+  var list2 = [470,400,355];
+  var totalmarks = 500;
+  var percentage_Shaheer = (470/totalmarks)*100;
+  var percentage_Ali = (400/totalmarks)*100;
+  var percentage_Ahsan = (355/totalmarks)*100;
+  print ("[1]Students Names:$list1 \n[2]Students Scores:$list2");
+  print ("[3]Shaheer Percentage:$percentage_Shaheer%");
+  print ("[4]Ali Percentage:$percentage_Ali%");
+  print ("[5]Ahsan Percentage:$percentage_Ahsan%");
+  
+}

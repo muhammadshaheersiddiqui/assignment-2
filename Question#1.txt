@@ -1,0 +1,76 @@
+ void main() {
+
+   int num1 = 20;
+   int num2 = 40;
+   int output1= num1+num2;
+  
+   int num3 = 20;
+   int num4 = 40;
+   int output2 = num3-num4;
+ 
+   int num5 = 20;
+   int num6 = 40;
+   double output3 = num5/num6;
+   
+   int num7 = 20;
+   int num8 = 40;
+   int output4 = num7*num8;
+  
+   int num9 = 20;
+   int num10 = 40;
+   int output5 = num9%num10;
+  
+   var num11 = 50;
+   var num12 = 100;
+   bool output6 = num11!=num12;
+   
+   var num13 = 50+50;
+   var num14 = 180-80;
+   bool output7 = num13==num14;
+   
+   var num15 = 100;
+   var num16 = 180;
+   bool output8 = num15>=num16;
+   
+   var num17 = 100;
+   var num18 = 180;
+   bool output9 = num17<=num18;
+   
+   var num19 = 200;
+   var num20 = 400;
+   bool output10 = num19<num20 && num20>num19;
+   
+   var num21 = 1000;
+   var num22 = 2000;
+   bool output11 = num21>num22 && num22>num21;
+    
+   print ("(1)Various Types Of Operators In Dart");
+   print (output1);
+   print (output2);
+   print (output3);
+   print (output4);
+   print (output5);
+   print (output6);
+   print (output7);
+   print (output8);
+   print (output9);
+   print (output10);
+   print (output11);
+   
+    int a = 100;
+   int b = 50+50;
+   if (a==b){
+     print ("A is equal to B");
+   }else{
+     print ("A is not equal to B");
+   }
+   
+   int x = 100;
+   int y = 100;
+   if (x!=y){
+     print ("X is equal to Y");
+   }else{
+     print ("X is not equal Y");
+   }
+}
+ 

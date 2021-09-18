@@ -1,0 +1,25 @@
+void main() {
+  var customername = "Shaheer Siddiqui";
+  var currentmonth= "September";
+  var issuedate = "2/september/2021";
+  var noofunits = 330;
+  var chargesperunit =22;
+  var netamount = 5300;
+  var latepayment = 5700;
+  var duedate = "21/september/2021";
+  
+  
+  
+  
+  print ("[1]Customer Name:${customername}");
+  print ("[2]Current Month:${currentmonth}");
+  print ("[3]Date Of Issue :${issuedate}");
+  print ("[4]Due Date:${duedate}");
+  print ("[5]Total Number Of Units:${noofunits}");
+  print ("[6]Charges Per Unit:${chargesperunit}");
+  print ("[7]Amount Payable Within Due Date:${netamount}");
+  print ("[8]Amount Payable After Due Date:${latepayment}");
+  
+  
+  
+}

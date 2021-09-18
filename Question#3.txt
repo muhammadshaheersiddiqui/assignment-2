@@ -1,0 +1,7 @@
+void main() {
+  int ticket_cost = 600;
+  int nooftickets = 5;
+  int totalticketsprice = ticket_cost*nooftickets;
+  print ("Each ticket price = ${ticket_cost}pkr");
+  print ("Five tickets price = ${totalticketsprice}pkr");
+}

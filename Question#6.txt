@@ -1,0 +1,20 @@
+void main() {
+  
+  var name = "Shaheer";
+  int class_ = 10;
+  var grade = "A";
+  double percentage = 88.3;
+  String numberorgmail = "03334059632-abc@gmail.com";
+  num a = 50;
+  num b = 70.5;
+  bool output = a<b;
+  
+  print ("Student Name: $name");
+  print ("Class: $class_");
+  print ("Grade: $grade");
+  print ("Percentage: $percentage%");
+  print ("Contact Number or Gmail: $numberorgmail");
+  print(output);
+
+  
+}

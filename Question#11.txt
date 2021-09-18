@@ -1,0 +1,7 @@
+void main() {
+  
+  var list1 = ["H","y","d","e","r","a","b","a","d"];
+  list1.replaceRange(0,5,["I","s","l","a","m"]);
+  print (list1);
+  
+}

@@ -1,0 +1,10 @@
+void main() {
+  var password = "abc.123";
+  var input = "123.abc";
+  if (password==input){
+    print("Correct Password");
+  }else{
+    print("Incorrect Password");
+  }
+  
+}
